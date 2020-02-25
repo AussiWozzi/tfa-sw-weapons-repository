@@ -28,7 +28,7 @@ SWEP.Weight					= 5
 SWEP.AutoSwitchTo			= false
 SWEP.AutoSwitchFrom			= false
 SWEP.Primary.Recoil			= 0.5
-SWEP.Primary.Damage			= 50
+SWEP.Primary.Damage			= 30
 SWEP.Primary.NumShots		= 3
 -- Selective Fire Stuff
 SWEP.SelectiveFire		= true --Allow selecting your firemode?
@@ -45,7 +45,7 @@ SWEP.Primary.RangeFalloff = -1 -- The percentage of the range the bullet damage 
 --Penetration Related
 SWEP.MaxPenetrationCounter = 1 --The maximum number of ricochets.  To prevent stack overflows.
 SWEP.Primary.ClipSize		= 50
-SWEP.Primary.RPM = 200
+SWEP.Primary.RPM = 175
 SWEP.Primary.DefaultClip	= 150
 SWEP.Primary.Automatic		= true
 SWEP.Primary.Ammo			= "ar2"
@@ -64,8 +64,8 @@ SWEP.WElements = {
 }
 SWEP.BlowbackVector = Vector(0,-3,0.025)
 SWEP.Blowback_Only_Iron  = false
-SWEP.DoProceduralReload = false
-SWEP.ProceduralReloadTime = 2.5
+SWEP.DoProceduralReload = true
+SWEP.ProceduralReloadTime = 2
 ----Swft Base Code
 SWEP.TracerCount = 1
 SWEP.MuzzleFlashEffect = ""
